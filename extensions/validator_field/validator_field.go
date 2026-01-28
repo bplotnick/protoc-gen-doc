@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/drobertduke/protoc-gen-doc/extensions"
+	"github.com/bplotnick/protoc-gen-doc/extensions"
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/protoc-gen-go/descriptor"
 	validator "github.com/mwitkow/go-proto-validators"

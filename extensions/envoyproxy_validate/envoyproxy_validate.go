@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/drobertduke/protoc-gen-doc/extensions"
+	"github.com/bplotnick/protoc-gen-doc/extensions"
 	"github.com/envoyproxy/protoc-gen-validate/validate"
 )
 

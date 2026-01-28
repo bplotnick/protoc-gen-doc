@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/drobertduke/protoc-gen-doc/extensions"
+	"github.com/bplotnick/protoc-gen-doc/extensions"
 	"github.com/golang/protobuf/protoc-gen-go/descriptor"
 	"github.com/pseudomuto/protokit"
 )

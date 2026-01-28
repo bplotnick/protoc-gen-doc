@@ -1,4 +1,4 @@
-module github.com/drobertduke/protoc-gen-doc
+module github.com/bplotnick/protoc-gen-doc
 
 go 1.17
 

@@ -58,7 +58,7 @@ func (rt RenderType) renderer() (Processor, error) {
 	case RenderTypeMarkdown:
 		return &htmlRenderer{string(tmpl)}, nil
 	case RenderTypeMDX:
-		return &textRenderer{string(tmpl)}, nil
+		return &htmlRenderer{string(tmpl)}, nil
 	}
 
 	return nil, errors.New("Unable to create a processor")

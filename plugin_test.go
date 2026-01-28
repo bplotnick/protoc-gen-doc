@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"testing"
 
-	. "github.com/drobertduke/protoc-gen-doc"
+	. "github.com/bplotnick/protoc-gen-doc"
 	"github.com/golang/protobuf/proto"
 	plugin_go "github.com/golang/protobuf/protoc-gen-go/plugin"
 	"github.com/pseudomuto/protokit/utils"

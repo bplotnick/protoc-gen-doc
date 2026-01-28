@@ -4,8 +4,8 @@ import (
 	"os"
 	"testing"
 
-	. "github.com/drobertduke/protoc-gen-doc"
-	"github.com/drobertduke/protoc-gen-doc/extensions"
+	. "github.com/bplotnick/protoc-gen-doc"
+	"github.com/bplotnick/protoc-gen-doc/extensions"
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/protoc-gen-go/descriptor"
 	"github.com/pseudomuto/protokit"

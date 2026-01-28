@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	. "github.com/drobertduke/protoc-gen-doc/cmd/protoc-gen-doc"
+	. "github.com/bplotnick/protoc-gen-doc/cmd/protoc-gen-doc"
 	"github.com/stretchr/testify/require"
 )
 
