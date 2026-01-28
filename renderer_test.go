@@ -25,6 +25,7 @@ func TestRenderers(t *testing.T) {
 		RenderTypeHTML,
 		RenderTypeJSON,
 		RenderTypeMarkdown,
+		RenderTypeMDX,
 	} {
 		_, err := RenderTemplate(r, template, "")
 		require.NoError(t, err)
@@ -37,9 +38,10 @@ func TestNewRenderType(t *testing.T) {
 		RenderTypeHTML,
 		RenderTypeJSON,
 		RenderTypeMarkdown,
+		RenderTypeMDX,
 	}
 
-	supplied := []string{"docbook", "html", "json", "markdown"}
+	supplied := []string{"docbook", "html", "json", "markdown", "mdx"}
 
 	for idx, input := range supplied {
 		rt, err := NewRenderType(input)
